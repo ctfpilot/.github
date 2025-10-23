@@ -10,10 +10,14 @@ CTF Pilot provides a numebr of projects, that focus on different parts of the in
 
 ## Contribution
 
-When contributing to CTF Pilot, [you will have to sign a CLA](https://github.com/ctfpilot/cla).
+We welcome contributions of all kinds—from **code** and **documentation** to **bug reports** and **feedback**!
 
-CTF Pilot is property of [The0Mikkel](https://github.com/The0mikkel).
+CTF Pilot includes both open-source and dual-licensed projects. To maintain the ability to distribute contributions across all our licensing models, **all code contributions require signing a Contributor License Agreement (CLA)**.
 
-## Bacground
+Please check the **CONTRIBUTING.md** file within the specific project repository you are working on for detailed guidelines. You can review **[the CLA here](https://github.com/ctfpilot/cla)**. CLA signing happens automatically when you create your first pull request.
 
-CTF Pilot got started as a CTF Platform project, originating in [Brunnerne](https://github.com/brunnerne).
+## Background
+
+CTF Pilot got started as a CTF Platform project, originating in **[Brunnerne](https://github.com/brunnerne)**.
+
+CTF Pilot is maintained and governed by **[The0Mikkel](https://github.com/The0mikkel)**.

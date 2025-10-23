@@ -20,4 +20,4 @@ Please check the **CONTRIBUTING.md** file within the specific project repository
 
 CTF Pilot started as a CTF Platform project, originating in **[Brunnerne](https://github.com/brunnerne)**.
 
-CTF Pilot is maintained and governed by **[The0Mikkel](https://github.com/The0mikkel)**.
+CTF Pilot is owned and maintained by **[The0Mikkel](https://github.com/The0mikkel)**.

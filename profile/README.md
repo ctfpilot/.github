@@ -4,9 +4,9 @@ Building fully automated CTF infrastructure
 
 ## Projects
 
-CTF Pilot provides a numebr of projects, that focus on different parts of the infrastructure.
+CTF Pilot provides a number of projects that focus on different parts of the infrastructure.
 
-- **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform 
+- **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform
 
 ## Contribution
 
@@ -18,6 +18,6 @@ Please check the **CONTRIBUTING.md** file within the specific project repository
 
 ## Background
 
-CTF Pilot got started as a CTF Platform project, originating in **[Brunnerne](https://github.com/brunnerne)**.
+CTF Pilot started as a CTF Platform project, originating in **[Brunnerne](https://github.com/brunnerne)**.
 
 CTF Pilot is maintained and governed by **[The0Mikkel](https://github.com/The0mikkel)**.

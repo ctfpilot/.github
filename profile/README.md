@@ -16,4 +16,4 @@ CTF Pilot is property of [The0Mikkel](https://github.com/The0mikkel).
 
 ## Bacground
 
-CTF Pilot got started as a CTF Platform project, originating in @Brunnerne.
+CTF Pilot got started as a CTF Platform project, originating in [Brunnerne](https://github.com/brunnerne).

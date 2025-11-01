@@ -14,7 +14,11 @@ We welcome contributions of all kinds—from **code** and **documentation** to *
 
 CTF Pilot includes both open-source and dual-licensed projects. To maintain the ability to distribute contributions across all our licensing models, **all code contributions require signing a Contributor License Agreement (CLA)**.
 
-Please check the **CONTRIBUTING.md** file within the specific project repository you are working on for detailed guidelines. You can review **[the CLA here](https://github.com/ctfpilot/cla)**. CLA signing happens automatically when you create your first pull request.
+Please check the [Contribution Guidelines (`CONTRIBUTING.md`)](/CONTRIBUTING.md) within the specific project repository you are working on for detailed guidelines. You can review **[the CLA here](https://github.com/ctfpilot/cla)**. CLA signing happens automatically when you create your first pull request.
+
+## Code of Conduct
+
+We expect all contributors to adhere to our [Code of Conduct](/CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for all.
 
 ## Background
 

@@ -7,6 +7,8 @@ Building fully automated CTF infrastructure
 CTF Pilot provides a number of projects that focus on different parts of the infrastructure.
 
 - **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform
+- **[Challenge schema](https://github.com/ctfpilot/challenge-schema):** CTF Pilot's Challenge Schema
+- **[Page schema](https://github.com/ctfpilot/page-schema):** CTF Pilot's Page Schema
 
 ## Contribution
 

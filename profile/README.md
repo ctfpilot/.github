@@ -10,6 +10,8 @@ CTF Pilot provides a number of projects that focus on different parts of the inf
 - **[kube-ctf](https://github.com/ctfpilot/kube-ctf):** Challenge manager by DownUnderCTF
 - **[Challenge schema](https://github.com/ctfpilot/challenge-schema):** CTF Pilot's Challenge Schema
 - **[Page schema](https://github.com/ctfpilot/page-schema):** CTF Pilot's Page Schema
+- **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback):** Fallback service for challenge instancing
+- **[error-fallback](https://github.com/ctfpilot/error-fallback):** Fallback service for handling errors
 
 ## Contribution
 

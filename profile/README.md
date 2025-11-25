@@ -8,6 +8,8 @@ CTF Pilot provides a number of projects that focus on different parts of the inf
 
 - **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform
 - **[kube-ctf](https://github.com/ctfpilot/kube-ctf):** Challenge manager by DownUnderCTF
+- **[CTFd-manager](https://github.com/ctfpilot/ctfd-manager):** CTF Pilot's CTFd Manager
+- **[discrd-bot](https://github.com/ctfpilot/discord-bot):** CTF Pilot's Discord Bot
 - **[Challenge schema](https://github.com/ctfpilot/challenge-schema):** CTF Pilot's Challenge Schema
 - **[Page schema](https://github.com/ctfpilot/page-schema):** CTF Pilot's Page Schema
 - **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback):** Fallback service for challenge instancing

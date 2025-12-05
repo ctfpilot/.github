@@ -8,6 +8,7 @@ CTF Pilot provides a number of projects that focus on different parts of the inf
 
 - **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform
 - **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit):** CTF Pilot's Challenge Toolkit
+- **[challenge-ci](https://github.com/ctfpilot/challenge-ci):** CTF Pilot's Challenge CI
 - **[kube-ctf](https://github.com/ctfpilot/kube-ctf):** Challenge manager by DownUnderCTF
 - **[CTFd-manager](https://github.com/ctfpilot/ctfd-manager):** CTF Pilot's CTFd Manager
 - **[discrd-bot](https://github.com/ctfpilot/discord-bot):** CTF Pilot's Discord Bot

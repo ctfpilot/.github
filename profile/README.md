@@ -11,8 +11,9 @@ CTF Pilot provides a number of projects that focus on different parts of the inf
 - **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit):** CTF Pilot's Challenge Toolkit
 - **[challenge-ci](https://github.com/ctfpilot/challenge-ci):** CTF Pilot's Challenge CI
 - **[kube-ctf](https://github.com/ctfpilot/kube-ctf):** Challenge manager by DownUnderCTF
+- **[ctfd](https://github.com/ctfpilot/ctfd):** CTF Pilot's CTFd configuration
 - **[ctfd-kubectf-plugin](https://github.com/ctfpilot/ctfd-kubectf-plugin):** CTFd plugin for Kube-CTF
-- **[CTFd-manager](https://github.com/ctfpilot/ctfd-manager):** CTF Pilot's CTFd Manager
+- **[ctfd-manager](https://github.com/ctfpilot/ctfd-manager):** CTF Pilot's CTFd Manager
 - **[discrd-bot](https://github.com/ctfpilot/discord-bot):** CTF Pilot's Discord Bot
 - **[challenge-schema](https://github.com/ctfpilot/challenge-schema):** CTF Pilot's Challenge Schema
 - **[page-schema](https://github.com/ctfpilot/page-schema):** CTF Pilot's Page Schema

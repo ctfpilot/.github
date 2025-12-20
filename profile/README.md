@@ -7,9 +7,10 @@ Building fully automated CTF infrastructure
 CTF Pilot provides a number of projects that focus on different parts of the infrastructure.
 
 - **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform
-- **[challenges-template](https://github.com/ctfpilot/challenges-template):** CTF Pilot's Challenge Repository Template
+- **[challenges-template](https://github.com/ctfpilot/challenges-template):** CTF Pilot's Challenge Repository Template. An example is available at **[challenges-example](https://github.com/ctfpilot/challenges-example)**
 - **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit):** CTF Pilot's Challenge Toolkit
 - **[challenge-ci](https://github.com/ctfpilot/challenge-ci):** CTF Pilot's Challenge CI
+- **[Challenges Project board Template](https://github.com/orgs/ctfpilot/projects/1):** CTF Pilot's GitHub Project board template for managing challenges
 - **[kube-ctf](https://github.com/ctfpilot/kube-ctf):** Challenge manager by DownUnderCTF
 - **[ctfd](https://github.com/ctfpilot/ctfd):** CTF Pilot's CTFd configuration
 - **[ctfd-kubectf-plugin](https://github.com/ctfpilot/ctfd-kubectf-plugin):** CTFd plugin for Kube-CTF

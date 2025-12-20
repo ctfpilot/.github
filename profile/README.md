@@ -21,6 +21,27 @@ CTF Pilot provides a number of projects that focus on different parts of the inf
 - **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback):** Fallback service for challenge instancing
 - **[error-fallback](https://github.com/ctfpilot/error-fallback):** Fallback service for handling errors
 
+### Versions
+
+We use [Semantic Versioning](https://semver.org/) for all our projects.
+
+The following table shows the latest released version for each project:
+
+| Project                                                                    | Latest Release                                                                                      |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **[ctfp](https://github.com/ctfpilot/ctfp)**                               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfp?sort=semver)                |
+| **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit)**     | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-toolkit?sort=semver)   |
+| **[challenge-ci](https://github.com/ctfpilot/challenge-ci)**               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-ci?sort=semver)        |
+| **[kube-ctf](https://github.com/ctfpilot/kube-ctf)**                       | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/kube-ctf?sort=semver)            |
+| **[ctfd](https://github.com/ctfpilot/ctfd)**                               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd?sort=semver)                |
+| **[ctfd-kubectf-plugin](https://github.com/ctfpilot/ctfd-kubectf-plugin)** | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd-kubectf-plugin?sort=semver) |
+| **[ctfd-manager](https://github.com/ctfpilot/ctfd-manager)**               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd-manager?sort=semver)        |
+| **[discord-bot](https://github.com/ctfpilot/discord-bot)**                 | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/discord-bot?sort=semver)         |
+| **[challenge-schema](https://github.com/ctfpilot/challenge-schema)**       | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-schema?sort=semver)    |
+| **[page-schema](https://github.com/ctfpilot/page-schema)**                 | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/page-schema?sort=semver)         |
+| **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback)** | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/instancing-fallback?sort=semver) |
+| **[error-fallback](https://github.com/ctfpilot/error-fallback)**           | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/error-fallback?sort=semver)      |
+
 ## Contribution
 
 We welcome contributions of all kinds—from **code** and **documentation** to **bug reports** and **feedback**!

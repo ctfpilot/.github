@@ -6,41 +6,27 @@ Building fully automated CTF infrastructure
 
 CTF Pilot provides a number of projects that focus on different parts of the infrastructure.
 
-- **[CTFp](https://github.com/ctfpilot/ctfp):** CTF Pilot's CTF Platform
-- **[challenges-template](https://github.com/ctfpilot/challenges-template):** CTF Pilot's Challenge Repository Template. An example is available at **[challenges-example](https://github.com/ctfpilot/challenges-example)**
-- **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit):** CTF Pilot's Challenge Toolkit
-- **[challenge-ci](https://github.com/ctfpilot/challenge-ci):** CTF Pilot's Challenge CI
-- **[Challenges Project board Template](https://github.com/orgs/ctfpilot/projects/1):** CTF Pilot's GitHub Project board template for managing challenges
-- **[kube-ctf](https://github.com/ctfpilot/kube-ctf):** Challenge manager by DownUnderCTF
-- **[ctfd](https://github.com/ctfpilot/ctfd):** CTF Pilot's CTFd configuration
-- **[ctfd-kubectf-plugin](https://github.com/ctfpilot/ctfd-kubectf-plugin):** CTFd plugin for Kube-CTF
-- **[ctfd-manager](https://github.com/ctfpilot/ctfd-manager):** CTF Pilot's CTFd Manager
-- **[discrd-bot](https://github.com/ctfpilot/discord-bot):** CTF Pilot's Discord Bot
-- **[challenge-schema](https://github.com/ctfpilot/challenge-schema):** CTF Pilot's Challenge Schema
-- **[page-schema](https://github.com/ctfpilot/page-schema):** CTF Pilot's Page Schema
-- **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback):** Fallback service for challenge instancing
-- **[error-fallback](https://github.com/ctfpilot/error-fallback):** Fallback service for handling errors
+| Project                                                                    | Description                               | Latest Release                                                                                      |
+| -------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **[CTFp](https://github.com/ctfpilot/ctfp)**                               | CTF Pilot's CTF Platform                  | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfp?sort=semver)                |
+| **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit)**     | CTF Pilot's Challenge Toolkit             | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-toolkit?sort=semver)   |
+| **[challenge-ci](https://github.com/ctfpilot/challenge-ci)**               | CTF Pilot's Challenge CI                  | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-ci?sort=semver)        |
+| **[kube-ctf](https://github.com/ctfpilot/kube-ctf)**                       | Challenge manager by DownUnderCTF         | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/kube-ctf?sort=semver)            |
+| **[ctfd](https://github.com/ctfpilot/ctfd)**                               | CTF Pilot's CTFd configuration            | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd?sort=semver)                |
+| **[ctfd-kubectf-plugin](https://github.com/ctfpilot/ctfd-kubectf-plugin)** | CTFd plugin for Kube-CTF                  | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd-kubectf-plugin?sort=semver) |
+| **[ctfd-manager](https://github.com/ctfpilot/ctfd-manager)**               | CTF Pilot's CTFd Manager                  | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd-manager?sort=semver)        |
+| **[discord-bot](https://github.com/ctfpilot/discord-bot)**                 | CTF Pilot's Discord Bot                   | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/discord-bot?sort=semver)         |
+| **[challenge-schema](https://github.com/ctfpilot/challenge-schema)**       | CTF Pilot's Challenge Schema              | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-schema?sort=semver)    |
+| **[page-schema](https://github.com/ctfpilot/page-schema)**                 | CTF Pilot's Page Schema                   | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/page-schema?sort=semver)         |
+| **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback)** | Fallback service for challenge instancing | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/instancing-fallback?sort=semver) |
+| **[error-fallback](https://github.com/ctfpilot/error-fallback)**           | Fallback service for handling errors      | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/error-fallback?sort=semver)      |
 
-### Versions
+To support the projects, CTF Pilot also provides the following templates:
 
-We use [Semantic Versioning](https://semver.org/) for all our projects.
-
-The following table shows the latest released version for each project:
-
-| Project                                                                    | Latest Release                                                                                      |
-| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **[ctfp](https://github.com/ctfpilot/ctfp)**                               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfp?sort=semver)                |
-| **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit)**     | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-toolkit?sort=semver)   |
-| **[challenge-ci](https://github.com/ctfpilot/challenge-ci)**               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-ci?sort=semver)        |
-| **[kube-ctf](https://github.com/ctfpilot/kube-ctf)**                       | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/kube-ctf?sort=semver)            |
-| **[ctfd](https://github.com/ctfpilot/ctfd)**                               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd?sort=semver)                |
-| **[ctfd-kubectf-plugin](https://github.com/ctfpilot/ctfd-kubectf-plugin)** | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd-kubectf-plugin?sort=semver) |
-| **[ctfd-manager](https://github.com/ctfpilot/ctfd-manager)**               | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/ctfd-manager?sort=semver)        |
-| **[discord-bot](https://github.com/ctfpilot/discord-bot)**                 | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/discord-bot?sort=semver)         |
-| **[challenge-schema](https://github.com/ctfpilot/challenge-schema)**       | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/challenge-schema?sort=semver)    |
-| **[page-schema](https://github.com/ctfpilot/page-schema)**                 | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/page-schema?sort=semver)         |
-| **[instancing-fallback](https://github.com/ctfpilot/instancing-fallback)** | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/instancing-fallback?sort=semver) |
-| **[error-fallback](https://github.com/ctfpilot/error-fallback)**           | ![GitHub Release](https://img.shields.io/github/v/release/ctfpilot/error-fallback?sort=semver)      |
+| Project                                                                              | Description                                                                                                                                    |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[challenges-template](https://github.com/ctfpilot/challenges-template)**           | CTF Pilot's Challenge Repository Template. An example is available at **[challenges-example](https://github.com/ctfpilot/challenges-example)** |
+| **[Challenges Project board Template](https://github.com/orgs/ctfpilot/projects/1)** | CTF Pilot's GitHub Project board template for managing challenges                                                                              |
 
 ## Contribution
 

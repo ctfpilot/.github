@@ -2,6 +2,13 @@
 
 Building fully automated CTF infrastructure
 
+> [!TIP]
+> **Looking for the CTF Platform?**  
+> CTF Pilot's CTF Platform is called **[CTFp](https://github.com/ctfpilot/ctfp)**. You can find more information about CTFp in the [CTFp repository](https://github.com/ctfpilot/ctfp).
+>
+> **Looking for how to develop challenges for the CTF Pilot platform?**  
+> You can find information about developing challenges in the **[challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit)**, **[Challenge schema](https://github.com/ctfpilot/challenge-schema)**, and **[Challenges template repository](https://github.com/ctfpilot/challenges-template)**.
+
 ## Projects
 
 CTF Pilot provides a number of projects that focus on different parts of the infrastructure.

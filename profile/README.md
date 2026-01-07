@@ -26,7 +26,7 @@ To support the projects, CTF Pilot also provides the following templates:
 | Project                                                                              | Description                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[challenges-template](https://github.com/ctfpilot/challenges-template)**           | CTF Pilot's Challenge Repository Template. <br /> An example is available at **[challenges-example](https://github.com/ctfpilot/challenges-example)**.                      |
-| **[Challenges Project board Template](https://github.com/orgs/ctfpilot/projects/1)** | CTF Pilot's GitHub Project board template for managing challenges. <br /> An example is available at **[Chalelnges example](https://github.com/orgs/ctfpilot/projects/2)**. |
+| **[Challenges Project board Template](https://github.com/orgs/ctfpilot/projects/1)** | CTF Pilot's GitHub Project board template for managing challenges. <br /> An example is available at **[Challenges example](https://github.com/orgs/ctfpilot/projects/2)**. |
 
 ## Contribution
 

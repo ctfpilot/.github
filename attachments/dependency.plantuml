@@ -12,7 +12,7 @@ package "Schemas & Templates" {
   component "challenge-schema" as CS [[https://github.com/ctfpilot/challenge-schema]]
   component "page-schema" as PS [[https://github.com/ctfpilot/page-schema]]
   component "challenges-template" as CT [[https://github.com/ctfpilot/challenges-template]]
-  component "challenges project board template" as PBT [[https://github.com/orgs/ctfpilot/projects/1]]
+  component "Challenges Project board Template" as PBT [[https://github.com/orgs/ctfpilot/projects/1]]
 }
 
 ' =========================

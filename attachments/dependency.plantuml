@@ -1,0 +1,79 @@
+@startuml
+!theme crt-amber
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam componentStyle rectangle
+
+' =========================
+' Contracts & Templates
+' =========================
+package "Schemas & Templates" {
+  component "challenge-schema" as CS [[https://github.com/ctfpilot/challenge-schema]]
+  component "page-schema" as PS [[https://github.com/ctfpilot/page-schema]]
+  component "challenges-template" as CT [[https://github.com/ctfpilot/challenges-template]]
+  component "challenges project board template" as PBT [[https://github.com/orgs/ctfpilot/projects/1]]
+}
+
+' =========================
+' Build & CI
+' =========================
+package "Build & CI" {
+  component "challenge-toolkit" as Toolkit [[https://github.com/ctfpilot/challenge-toolkit]]
+  component "challenge-ci" as CI [[https://github.com/ctfpilot/challenge-ci]]
+  component "Challenges Repository" as Repo [[https://github.com/ctfpilot/challenges-example]]
+}
+
+' =========================
+' Platform
+' =========================
+package "Platform" {
+  component "ctfd-kubectf-plugin" as Plugin [[https://github.com/ctfpilot/ctfd-kubectf-plugin]]
+  component "ctfd-manager" as Manager [[https://github.com/ctfpilot/ctfd-manager]]
+  component "ctfd" as CTFd [[https://github.com/ctfpilot/ctfd]]
+  component "kube-ctf" as Kube [[https://github.com/ctfpilot/kube-ctf]]
+  component "instancing-fallback" as IFB [[https://github.com/ctfpilot/instancing-fallback]]
+  component "error-fallback" as EFB [[https://github.com/ctfpilot/error-fallback]]
+}
+
+' =========================
+' External / Orchestration
+' =========================
+package "External" {
+  component "CTFp" as CTFp [[https://github.com/ctfpilot/ctfp]]
+  component "discord-bot" as Bot [[https://github.com/ctfpilot/discord-bot]]
+  component "Challenges Project Board" as Board [[https://github.com/orgs/ctfpilot/projects/2]]
+}
+
+' =========================
+' Dependencies
+' =========================
+
+' Contracts
+Toolkit --> CS : uses
+Toolkit --> PS : uses
+PBT --> Board : template for
+CT ---> Repo : template for
+
+' Build chain
+CI --> Toolkit : runs
+Repo --> CI : uses
+Bot --> Repo : triggers CI
+
+' Platform orchestration
+CTFp -u-> Platform : Orchestrates
+CTFp --[hidden]u-> Manager
+
+' Platform internals
+Manager --> CTFd : configures
+Manager ..> Repo : reads challenges/pages
+
+Plugin --> CTFd : plugin
+CTFd --> Kube : uses
+Kube --> IFB : fallback
+Kube --> EFB : fallback
+
+' External
+Bot --> Board : reads/writes
+
+@enduml

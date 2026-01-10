@@ -40,8 +40,8 @@ package "Platform" {
 ' External / Orchestration
 ' =========================
 package "External" {
-  component "CTFp" as CTFp [[https://github.com/ctfpilot/ctfp]]
   component "discord-bot" as Bot [[https://github.com/ctfpilot/discord-bot]]
+  component "CTFp" as CTFp [[https://github.com/ctfpilot/ctfp]]
   component "Challenges Project Board" as Board [[https://github.com/orgs/ctfpilot/projects/2]]
 }
 
@@ -67,6 +67,7 @@ CTFp --[hidden]u-> Manager
 ' Platform internals
 Manager --> CTFd : configures
 Manager ..> Repo : reads challenges/pages
+Kube .l.> Repo : reads instancing templates
 
 Plugin --> CTFd : plugin
 CTFd --> Kube : uses

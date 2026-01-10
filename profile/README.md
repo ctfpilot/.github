@@ -39,7 +39,7 @@ To support the projects, CTF Pilot also provides the following templates:
 
 The following diagram roughly illustrates the dependencies between the various CTF Pilot projects:
 
-![CTF Pilot Dependency Diagram](./../attachments/dependency.png)
+![CTF Pilot Dependency Diagram](./../attachments/dependency.svg)
 
 ## Contribution
 

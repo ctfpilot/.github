@@ -41,6 +41,32 @@ The following diagram roughly illustrates the dependencies between the various C
 
 ![CTF Pilot Dependency Diagram](./../attachments/dependency.svg)
 
+## Architecture
+
+The CTF Pilot infrastructure is designed around DevOps principles, utilizing GitOps workflows, Infrastructure as Code (IaC), and Continuous Integration/Continuous Deployment (CI/CD) pipelines.
+
+The architecture is split into two main categories:
+
+1. **CTF Platform**: This includes the core CTF Platform (CTFp) and its associated services, such as the CTFd Manager, Discord Bot, and CTFd configuration.
+2. **Challenge Management**: This encompasses tools and services for challenge development, deployment, and management, including the Challenge Toolkit, Challenge CI, Kube-CTF, and related schemas.
+
+### CTF Platform Architecture
+
+![CTF Pilot Platform Architecture](https://github.com/ctfpilot/ctfp/raw/develop/docs/attachments/architecture/overview.svg)
+
+The Platform architecture diagram illustrates how CTFp orchestrates the various components into the collected platform, which runs in Kubernetes.
+
+To learn more about the CTF Platform architecture, please visit the [CTFp repository](https://github.com/ctfpilot/ctfp?tab=readme-ov-file#architecture).
+
+### Challenge Management Architecture
+
+![CTF Pilot Challenge Management Architecture](https://github.com/ctfpilot/ctfp/raw/develop/docs/attachments/architecture/challenge-deployment.svg)
+
+The Challenge Management architecture diagram illustrates how challenges are managed, continuously configured and deployed within the CTF Pilot infrastructure.
+
+You can learn more about the challenge architecture in the [CTFp repository](https://github.com/ctfpilot/ctfp?tab=readme-ov-file#challenge-deployment), [CTF Pilot's Challenge Toolkit](https://github.com/ctfpilot/challenge-toolkit), and [CTF Pilot's Challenges Template](https://github.com/ctfpilot/challenges-template). An example challenges repository can be found at [CTF Pilot's Challenges example repository](https://github.com/ctfpilot/challenges-example).
+
+
 ## Contribution
 
 We welcome contributions of all kinds—from **code** and **documentation** to **bug reports** and **feedback**!

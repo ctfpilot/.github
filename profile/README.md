@@ -75,6 +75,23 @@ CTF Pilot includes both open-source and dual-licensed projects. To maintain the 
 
 Please check the [Contribution Guidelines (`CONTRIBUTING.md`)](/CONTRIBUTING.md) within the specific project repository you are working on for detailed guidelines. You can review **[the CLA here](https://github.com/ctfpilot/cla)**. CLA signing happens automatically when you create your first contribution.
 
+### Project management
+
+In order to keep track of contributions, we use **GitHub Projects** for project management.  
+One project board is created for the whole CTF Pilot project, which includes all repositories.
+
+This can be found at **[CTF Pilot Project Board](https://github.com/orgs/ctfpilot/projects/3)**.  
+The project board is the north star for the project, leading what should be worked on next.
+
+To shortly summarize the status columns:
+
+- **Specification**: New ideas and proposals that are being specified.
+- **Backlog**: Approved tasks that have been specified but might need a bit more planning and refinement.
+- **Ready**: Tasks that are ready to be picked up by contributors.
+- **In Progress**: Tasks that are currently being worked on.
+- **In Review**: Tasks that are completed and are awaiting review.
+- **Done**: Completed tasks that have been merged and deployed.
+
 ## Code of Conduct
 
 We expect all contributors to adhere to our [Code of Conduct](/CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for all.

@@ -66,6 +66,15 @@ The Challenge Management architecture diagram illustrates how challenges are man
 
 You can learn more about the challenge architecture in the [CTFp repository](https://github.com/ctfpilot/ctfp?tab=readme-ov-file#challenge-deployment), [CTF Pilot's Challenge Toolkit](https://github.com/ctfpilot/challenge-toolkit), and [CTF Pilot's Challenges Template](https://github.com/ctfpilot/challenges-template). An example challenges repository can be found at [CTF Pilot's Challenges example repository](https://github.com/ctfpilot/challenges-example).
 
+### Limitations
+
+CTF Pilot is not built to handle every CTF scenario. The system therefore has some limitations.
+
+The primary limitations lie in the following areas:
+
+- **Challenge instancing**: CTF Pilot runs [kube-ctf](https://github.com/ctfpilot/kube-ctf) as its instancing manager, which only supports running challenges within Kubernetes. This means, that challenges must be build to run in Docker, and support running within a Kubernetes cluster context. Not all challenge types can be built to run within these constraints. Shared challenges may be deployed as static challenges, and have their infrastructure run in a seperate setup, allowing for more complex challenge types. However, this is not natively supported by CTF Pilot.
+- **Challenge structure**: CTF Pilot requires challenges to be structured according to the layout defined in the [challenge-toolkit](https://github.com/ctfpilot/challenge-toolkit), with metadata defined according to the [challenge-schema](https://github.com/ctfpilot/challenge-schema). This is an opinionated structure, which may not fit all challenge development workflows. Especially if you wish to split each challenge into its own repository, you may find it difficult to adapt the current structure to your needs. We are considering adding support for multi-repository challenge setups in the future.
+- **Minimum size**: CTF Pilot is designed to run in a Kubernetes cluster, which may introduce overhead for very small CTFs. It is therefore something that needs to be considered when deciding to use CTF Pilot for smaller events. We are planning to add support for running small scale clusters which would allow to run CTF Pilot in a more lightweight manner.
 
 ## Contribution
 
